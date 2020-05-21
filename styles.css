@@ -1,0 +1,74 @@
+
+/* styling for header 3 */
+h3 {
+	color: lightgreen;
+	text-align: center;
+}
+
+/* styling for header 4 */
+h4 {
+	color: red;
+	text-align: right;
+}
+
+/* styling for division */
+div	{
+	background-color: teal;
+	width: 400px;
+	height: 60px;
+	margin: 30px; /* the spacing around the box */
+	padding: 20px; /* spacing within the box */
+
+	font-family: Arial, sans-serif;
+	/* if Arial isn't available, it will default to a san-serif font */
+	font-size: 28px;
+	font-weight: bold;
+	border: 3px dotted black;
+}
+
+/* styling for the table */
+table {
+	border: 2px solid red;
+	/* removal of double border */
+	border-collapse: collapse;
+	width: 80%;
+	text-align: center;
+}
+
+/* can combine styling elements by adding a comma e.g. th, td {...} */
+th, td {
+	padding: 5px;
+}
+
+/* styling for the table header */
+th {
+	border: 1px solid yellow;
+	background-color: lightgrey;
+}
+
+/* styling for the table data */
+td {
+	border: 1px dashed black;
+}
+
+
+/* unique styles for each of the divs */
+/* the # sign is short for id */
+#top {
+	font-size: 20px;
+}
+
+#middle {
+	font-size: 16px;
+}
+
+#bottom {
+	font-size: 12px;
+}
+
+/* setting styles for the spans */
+/* the . sign is short for class */
+.classname {
+	font-family: Papyrus, serif;
+	text-decoration: underline;
+}
